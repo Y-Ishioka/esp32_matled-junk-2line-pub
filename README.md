@@ -59,6 +59,17 @@ https://x.com/YI_Studio/status/1887897703587398120
 
 　LED        2
 
+◆必須設定
+
+esp32_matled-junk-2line-pub.ino ファイルの20行目付近の以下の行へアクセスするWi-Fiの SSIDとパスフレーズを設定する必要があります。
+
+```
+const char* ssid1     = "xxxxxxxxxx";
+const char* password1 = "xxxxxxxxxx";
+const char* ssid2     = "xxxxxxxxxx";
+const char* password2 = "xxxxxxxxxx";
+```
+
 ◆回路図
 
 ![schem](https://github.com/Y-Ishioka/esp32_matled-junk-2line-pub/blob/main/esp32_matled-junk-2line-pub.jpg)
