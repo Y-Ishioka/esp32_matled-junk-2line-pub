@@ -61,7 +61,7 @@ https://x.com/YI_Studio/status/1887897703587398120
 
 ◆回路図
 
-esp32_matled-junk-2line-pub.jpg
+https://github.com/Y-Ishioka/esp32_matled-junk-2line-pub/esp32_matled-junk-2line-pub.jpg
 
 ◆免責
 
