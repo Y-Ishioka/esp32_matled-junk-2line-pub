@@ -33,15 +33,15 @@ https://x.com/YI_Studio/status/1887897703587398120
 
 マトリクスLEDパネルと接続するGPIOは以下の通り。
 
- SIN1      12
+　SIN1      12
 
- SIN2      13
+　SIN2      13
 
- SIN3      14
+　SIN3      14
 
- CLOCK     15
+　CLOCK     15
 
- LATCH     16
+　LATCH     16
 
 また、表示の制御に使うGPIOは以下の通り。
 
@@ -49,17 +49,19 @@ https://x.com/YI_Studio/status/1887897703587398120
 
 　可変抵抗の電圧値をADCで取得し速度を決定
 
- VOL       34
+　VOL       34
 
 ・スライド表示の一時停止（省略可）
 
- BTN        4
+　BTN        4
 
 ・Wi-Fiデータ受信インジケーター（省略可）
 
- LED        2
+　LED        2
 
+◆回路図
 
+esp32_matled-junk-2line-pub.jpg
 
 ◆免責
 
