@@ -319,9 +319,9 @@ unsigned char  *get_fontx2_k( unsigned char *font, unsigned int code )
 
     if( address == 0 ) {
         Serial.printf( "*get_fontx2_k( 0x%X ) : address = %X \n", code, address );
-        if( code = 0x8780 ) {
+        if( code == 0x8780 ) {
             code = 0x8168;
-        } else if( code = 0x8781 ) {
+        } else if( code == 0x8781 ) {
             code = 0x8168;
         } else {
             code = 0x8145; /* if there is no data, "・" */
